@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TasteQuest | Premium Nigerian Catering Services for Events & Occasions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TasteQuest | Premium Nigerian Catering Services for Events & Occasions">
+    <meta name="description" content="TasteQuest is Nigeria’s leading catering service, offering delicious local and continental dishes for weddings, corporate events, and private parties.">
+    <meta name="keywords" content="TasteQuest, Nigerian catering, event catering Lagos, wedding food Nigeria, corporate catering services, Nigerian food delivery, party catering">
+    <meta name="author" content="TasteQuest Catering Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="TasteQuest | Premium Nigerian Catering Services">
+    <meta property="og:description" content="Top-rated catering for weddings, parties, and corporate events. Book TasteQuest for delicious, professionally-served meals.">
+    <meta property="og:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:secure_url" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://www.tastequest.vercel.app">
+    <meta property="og:site_name" content="TasteQuest">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TasteQuest | Nigerian Catering Services">
+    <meta name="twitter:description" content="Experience gourmet Nigerian catering for your next event. Trusted by clients across Lagos and beyond.">
+    <meta name="twitter:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta name="twitter:image:alt" content="TasteQuest premium Nigerian dishes and catering setup">
+    <meta name="twitter:site" content="@TasteQuestNG">
+    <meta name="twitter:creator" content="@TasteQuestNG">
+
+    <!-- WhatsApp & LinkedIn will fallback to Open Graph tags -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand" aria-label="TasteQuest Catering Home">
+                        <h1 class="text-primary fw-bold mb-0">Taste<span class="text-dark">Quest</span></h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About Us</a>
+                            <a href="service.html" class="nav-item nav-link">Our Services</a>
+                            <a href="event.html" class="nav-item nav-link">Event Catering</a>
+                            <a href="menu.html" class="nav-item nav-link">Our Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="book.html" class="dropdown-item">Book a Service</a>
+                                    <a href="blog.html" class="dropdown-item">Catering Blog</a>
+                                    <a href="team.html" class="dropdown-item">Meet the Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Client Testimonials</a>
+                                    <a href="404.html" class="dropdown-item">Error Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="searchModalLabel">Search TasteQuest Catering</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close search"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="Search dishes, events, services..." aria-label="Search">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container text-center animated bounceInDown">
+                <h1 class="display-1 mb-4">Our Blog</h1>
+                <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-dark" aria-current="page">Our Blog</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <style>
+            .bg-light.py-6.my-6.mt-0 {
+              background-image: url('img/hotel.avif');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-color: transparent !important;
+              min-height: 300px;
+            }
+            </style>
+
+         <!-- Blog Start -->
+<div class="container-fluid blog py-6">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Blog</small>
+            <h1 class="display-5 mb-5">Latest Insights from the TasteQuest Kitchen</h1>
+        </div>
+        <div class="row gx-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/cookjollof.jpg" class="img-fluid w-100" alt="How to cook party jollof rice - TasteQuest Nigeria">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">16</p>
+                                <p class="fw-bold mb-0">Sep</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">Secrets to Smoky Party Jollof Rice Every Nigerian Loves</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.3s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/catwed.jpeg" class="img-fluid w-100" alt="Catering for Nigerian weddings - TasteQuest">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">23</p>
+                                <p class="fw-bold mb-0">Sep</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">Top 5 Must-Have Dishes for Nigerian Wedding Catering</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.5s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/aff.webp" class="img-fluid w-100" alt="Affordable Lagos catering tips - TasteQuest blog">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">01</p>
+                                <p class="fw-bold mb-0">Oct</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">How to Plan Affordable Catering in Lagos Without Cutting Taste</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Blog Post 1 -->
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.7s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/trad.jpeg" class="img-fluid w-100" alt="TasteQuest - Traditional Nigerian menu ideas">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">08</p>
+                                <p class="fw-bold mb-0">Oct</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">Creating the Perfect Traditional Nigerian Menu for Your Event</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Blog Post 2 -->
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.9s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/eventcat.jpg" class="img-fluid w-100" alt="Corporate event catering Nigeria - TasteQuest">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">12</p>
+                                <p class="fw-bold mb-0">Oct</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">5 Catering Tips for Corporate Events That Impress Clients</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Blog Post 3 -->
+            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="1.1s">
+                <div class="blog-item">
+                    <div class="overflow-hidden rounded">
+                        <img src="img/veg.jpg" class="img-fluid w-100" alt="Vegetarian Nigerian catering options - TasteQuest">
+                    </div>
+                    <div class="blog-content mx-4 d-flex rounded bg-light">
+                        <div class="text-dark bg-primary rounded-start">
+                            <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                <p class="fw-bold mb-0">18</p>
+                                <p class="fw-bold mb-0">Oct</p>
+                            </div>
+                        </div>
+                        <a href="#" class="h5 lh-base my-auto h-100 p-3">Delicious Nigerian Vegetarian Options That Wow Your Guests</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+
+
+        <!-- Footer Start -->
+<div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
+            <!-- Brand Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h1 class="text-primary">Taste<span class="text-dark">Quest</span></h1>
+                    <p class="lh-lg mb-4">
+                        TasteQuest is Nigeria’s leading event and corporate catering service. We bring flavorful, locally-inspired dishes to your weddings, parties, and business events with unmatched quality and hospitality.
+                    </p>
+                    <div class="footer-icon d-flex">
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Our Signature Dishes</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Jollof Rice & Grilled Chicken</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Pounded Yam & Egusi Soup</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Asun (Spicy Grilled Goat Meat)</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Small Chops & Cocktail Packs</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Contact Us</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 42 Allen Avenue, Ikeja, Lagos, Nigeria</p>
+                        <p><i class="fa fa-phone-alt text-primary me-2"></i> (+234) 901 234 5678</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i> hello@tastequest.ng</p>
+                        <p><i class="fa fa-clock text-primary me-2"></i> Mon - Sat: 8AM - 8PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Gallery -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Social Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img src="img/jollof.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Jollof Rice catering TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/smallchops.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Nigerian catering small chops platter">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/buffet.avif" class="img-fluid rounded-circle border border-primary p-2" alt="TasteQuest buffet service at Lagos wedding">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corplunch.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Catering for corporate lunch TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corpeventcat.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Party event catering Nigeria">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/iyan.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Traditional food catering in Lagos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright bg-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <span class="text-light"><a href="index.html"><i class="fas fa-copyright text-light me-2"></i>TasteQuest</a>, All rights reserved.</span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>

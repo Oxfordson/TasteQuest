@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TasteQuest | Premium Nigerian Catering Services for Events & Occasions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TasteQuest | Premium Nigerian Catering Services for Events & Occasions">
+    <meta name="description" content="TasteQuest is Nigeria’s leading catering service, offering delicious local and continental dishes for weddings, corporate events, and private parties.">
+    <meta name="keywords" content="TasteQuest, Nigerian catering, event catering Lagos, wedding food Nigeria, corporate catering services, Nigerian food delivery, party catering">
+    <meta name="author" content="TasteQuest Catering Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="TasteQuest | Premium Nigerian Catering Services">
+    <meta property="og:description" content="Top-rated catering for weddings, parties, and corporate events. Book TasteQuest for delicious, professionally-served meals.">
+    <meta property="og:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:secure_url" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://www.tastequest.vercel.app">
+    <meta property="og:site_name" content="TasteQuest">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TasteQuest | Nigerian Catering Services">
+    <meta name="twitter:description" content="Experience gourmet Nigerian catering for your next event. Trusted by clients across Lagos and beyond.">
+    <meta name="twitter:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta name="twitter:image:alt" content="TasteQuest premium Nigerian dishes and catering setup">
+    <meta name="twitter:site" content="@TasteQuestNG">
+    <meta name="twitter:creator" content="@TasteQuestNG">
+
+    <!-- WhatsApp & LinkedIn will fallback to Open Graph tags -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand" aria-label="TasteQuest Catering Home">
+                        <h1 class="text-primary fw-bold mb-0">Taste<span class="text-dark">Quest</span></h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About Us</a>
+                            <a href="service.html" class="nav-item nav-link">Our Services</a>
+                            <a href="event.html" class="nav-item nav-link">Event Catering</a>
+                            <a href="menu.html" class="nav-item nav-link">Our Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="book.html" class="dropdown-item">Book a Service</a>
+                                    <a href="blog.html" class="dropdown-item">Catering Blog</a>
+                                    <a href="team.html" class="dropdown-item">Meet the Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Client Testimonials</a>
+                                    <a href="404.html" class="dropdown-item">Error Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="searchModalLabel">Search TasteQuest Catering</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close search"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="Search dishes, events, services..." aria-label="Search">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container text-center animated bounceInDown">
+                <h1 class="display-1 mb-4">Events</h1>
+                <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-dark" aria-current="page">Events</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <style>
+            .bg-light.py-6.my-6.mt-0 {
+              background-image: url('img/hotel.avif');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-color: transparent !important;
+              min-height: 300px;
+            }
+            </style>
+
+        <!-- Events Start -->
+<div class="container-fluid event py-6">
+    <div class="container">
+      <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Latest Events</small>
+        <h1 class="display-5 mb-5">Catering for Nigerian Celebrations & Corporate Events</h1>
+      </div>
+  
+      <div class="tab-class text-center">
+        <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+          <li class="nav-item p-2">
+            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+              <span class="text-dark" style="width: 150px;">All Events</span>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="d-flex py-2 mx-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+              <span class="text-dark" style="width: 150px;">Traditional Weddings</span>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+              <span class="text-dark" style="width: 150px;">Corporate Events</span>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+              <span class="text-dark" style="width: 150px;">Owambe Parties</span>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+              <span class="text-dark" style="width: 150px;">Buffet Receptions</span>
+            </a>
+          </li>
+        </ul>
+  
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+  
+                  <!-- Sample Event Card Refactored -->
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/yorubatrad.jpg" alt="TasteQuest catering at a Yoruba traditional wedding">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Traditional Wedding</h4>
+                        <a href="img/yorubatrad.jpg" data-lightbox="event-1" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/lbs.avif" alt="Corporate lunch catering at Lagos Annual Business Conference">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Corporate Event</h4>
+                        <a href="img/lbs.avif" data-lightbox="event-2" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/Igbofood.webp" alt="Engagement ceremony catering for Igbo bride and groom">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Engagement Ceremony</h4>
+                        <a href="img/Igbofood.webp" data-lightbox="event-3" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/buffetstyle.avif" alt="Buffet-style birthday party catering in Abuja">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Buffet Reception</h4>
+                        <a href="img/buffetstyle.avif" data-lightbox="event-4" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Add additional events in the same pattern -->
+                  <!-- Naming Ceremony, Graduation Party, VIP Lounge Catering, Church Convention, Political Event, etc. -->
+  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Update tab-2 to tab-5 similarly with local SEO-targeted events -->
+          <div id="tab-2" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/asunjollof.jpg" alt="Yoruba traditional wedding catering with asun and jollof rice">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Yoruba Wedding</h4>
+                        <a href="img/asunjollof.jpg" data-lightbox="event-5" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/nkwobi.jpg" alt="Igbo traditional marriage with local delicacies like nkwobi and ofe nsala">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Igbo Wedding</h4>
+                        <a href="img/nkwobi.jpg" data-lightbox="event-6" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/Hausa.webp" alt="Hausa traditional wedding with northern Nigerian cuisine">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Hausa Wedding</h4>
+                        <a href="img/Hausa.webp" data-lightbox="event-7" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/Nikkai.jpeg" alt="Nikkai Islamic wedding catering in Abuja">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Nikkai Ceremony</h4>
+                        <a href="img/Nikkai.jpeg" data-lightbox="event-8" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div id="tab-3" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/breakfast.jpg" alt="Corporate breakfast meeting catering in Lagos">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Business Breakfast</h4>
+                        <a href="img/breakfast.jpg" data-lightbox="event-9" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/AGM.jpg" alt="AGM event catering with continental and local mix">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Annual General Meeting</h4>
+                        <a href="img/AGM.jpg" data-lightbox="event-10" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/product.avif" alt="Product launch reception catering with cocktails and canapes">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Product Launch</h4>
+                        <a href="img/product.avif" data-lightbox="event-11" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/seminar.jpg" alt="Seminar or workshop catering in Victoria Island">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Corporate Seminar</h4>
+                        <a href="img/seminar.jpg" data-lightbox="event-12" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div id="tab-4" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/egusi.jpeg" alt="50th birthday party owambe with full Yoruba cuisine spread">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Birthday Party</h4>
+                        <a href="img/egusi.jpeg" data-lightbox="event-13" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/amala.jpg" alt="Thanksgiving owambe celebration in Ibadan with buffet">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Thanksgiving Owambe</h4>
+                        <a href="img/amala.jpg" data-lightbox="event-14" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/suya.jpeg" alt="Graduation party catering with jollof rice, suya, small chops">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Graduation Party</h4>
+                        <a href="img/suya.jpeg" data-lightbox="event-15" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/abk.jpeg" alt="Retirement celebration owambe in Abeokuta">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Retirement Celebration</h4>
+                        <a href="img/abk.jpeg" data-lightbox="event-16" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div id="tab-5" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/Lekki.avif" alt="Private buffet catering in Lekki">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Private Buffet</h4>
+                        <a href="img/Lekki.avif" data-lightbox="event-17" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/hotel.avif" alt="Luxury VIP reception catering at hotel">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">VIP Reception</h4>
+                        <a href="img/hotel.avif" data-lightbox="event-18" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/eat.jpeg" alt="All-you-can-eat wedding buffet in Port Harcourt">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Wedding Buffet</h4>
+                        <a href="img/eat.jpeg" data-lightbox="event-19" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="event-img position-relative">
+                      <img class="img-fluid rounded w-100" src="img/attire.jpeg" alt="Outdoor garden buffet with assorted Nigerian dishes">
+                      <div class="event-overlay d-flex flex-column p-4">
+                        <h4 class="me-auto">Garden Buffet</h4>
+                        <a href="img/attire.jpeg" data-lightbox="event-20" class="my-auto">
+                          <i class="fas fa-search-plus text-dark fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Events End -->
+  
+
+        <!-- Book Us Start -->
+<div class="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-1">
+                <img src="img/back.avif" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="TasteQuest Catering Background">
+            </div>
+            <div class="col-10">
+                <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                    <div class="text-center">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Book Us</small>
+                        <h1 class="display-5 mb-5">Reserve Premium Nigerian Catering for Your Event</h1>
+                    </div>
+                    <div class="row g-4 form">
+                        <div class="col-lg-4 col-md-6">
+                            <select class="form-select border-primary p-2" aria-label="Select State">
+                                <option selected disabled>Select state</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross River">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="FCT">FCT (Abuja)</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamfara</option>
+                            </select>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <select class="form-select border-primary p-2" aria-label="Select City">
+                                <option selected disabled>Select City</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Ibadan">Ibadan</option>
+                                <option value="Abuja">Abuja</option>
+                                <option value="Port Harcourt">Port Harcourt</option>
+                                <option value="Benin City">Benin City</option>
+                                <option value="Maiduguri">Maiduguri</option>
+                                <option value="Zaria">Zaria</option>
+                                <option value="Aba">Aba</option>
+                                <option value="Jos">Jos</option>
+                                <option value="Ilorin">Ilorin</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="Abeokuta">Abeokuta</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Onitsha">Onitsha</option>
+                                <option value="Warri">Warri</option>
+                                <option value="Ikorodu">Ikorodu</option>
+                                <option value="Okene">Okene</option>
+                                <option value="Calabar">Calabar</option>
+                                <option value="Uyo">Uyo</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Ado-Ekiti">Ado-Ekiti</option>
+                                <option value="Akure">Akure</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Ikeja">Ikeja</option>
+                                <option value="Makurdi">Makurdi</option>
+                                <option value="Minna">Minna</option>
+                                <option value="Efon-Alaaye">Efon-Alaaye</option>
+                                <option value="Ife">Ife</option>
+                                <option value="Ilesa">Ilesa</option>
+                                <option value="Osogbo">Osogbo</option>
+                                <option value="Owerri">Owerri</option>
+                                <option value="Owo">Owo</option>
+                                <option value="Yola">Yola</option>
+                                <option value="Umuahia">Umuahia</option>
+                                <option value="Nsukka">Nsukka</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Gusau">Gusau</option>
+                                <option value="Jalingo">Jalingo</option>
+                                <option value="Asaba">Asaba</option>
+                                <option value="Birnin Kebbi">Birnin Kebbi</option>
+                                <option value="Damaturu">Damaturu</option>
+                                <option value="Dutse">Dutse</option>
+                                <option value="Keffi">Keffi</option>
+                                <option value="Kontagora">Kontagora</option>
+                                <option value="Lafia">Lafia</option>
+                                <option value="Lokoja">Lokoja</option>
+                                <option value="Nnewi">Nnewi</option>
+                                <option value="Ogbomosho">Ogbomosho</option>
+                                <option value="Suleja">Suleja</option>
+                                <option value="Uromi">Uromi</option>
+                                <option value="Yenagoa">Yenagoa</option>
+                            </select>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <select class="form-select border-primary p-2" aria-label="Select Event Venue">
+                                    <option selected disabled>Select Venue</option>
+                                    <option value="Banquet Hall">Banquet Hall</option>
+                                    <option value="Outdoor Garden">Outdoor Garden</option>
+                                    <option value="Home Event">Home Event</option>
+                                    <option value="Hotel Event Hall">Hotel Event Hall</option>
+                                    <option value="Beachside Venue">Beachside Venue</option>
+                                    <option value="Open Field">Open Field</option>
+                                    <option value="Religious Venue">Religious Venue (Church/Mosque)</option>
+                                    <option value="Conference Center">Conference Center</option>
+                                    <option value="Community Hall">Community Hall</option>
+                                    <option value="Civic Center">Civic Center</option>
+                                    <option value="Event Center">Event Center</option>
+                                    <option value="Cultural Center">Cultural Center</option>
+                                    <option value="Private Lounge">Private Lounge</option>
+                                    <option value="Boat Cruise Venue">Boat Cruise Venue</option>
+                                    <option value="School Auditorium">School Auditorium</option>
+                                    <option value="Palace Ground">Palace Ground</option>
+                                    <option value="Cinema Hall">Cinema Hall</option>
+                                    <option value="Terrace Rooftop">Terrace/Rooftop</option>
+                                    <option value="Resort Venue">Resort Venue</option>
+                                    <option value="Art Gallery / Museum">Art Gallery / Museum</option>
+                                    <option value="Industrial Warehouse">Industrial Warehouse (converted)</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            
+                                <select class="form-select border-primary p-2" aria-label="Select Event Type">
+                                    <option selected disabled>Select Event Type</option>
+                                    <option value="Wedding">Wedding</option>
+                                    <option value="Traditional Wedding">Traditional Wedding</option>
+                                    <option value="White Wedding">White Wedding</option>
+                                    <option value="Engagement Ceremony">Engagement Ceremony</option>
+                                    <option value="Birthday Party">Birthday Party</option>
+                                    <option value="Naming Ceremony">Naming Ceremony</option>
+                                    <option value="Housewarming">Housewarming</option>
+                                    <option value="Funeral/Wake">Funeral / Wake-Keeping</option>
+                                    <option value="Graduation Party">Graduation Party</option>
+                                    <option value="Child Dedication">Child Dedication</option>
+                                    <option value="Anniversary Celebration">Anniversary Celebration</option>
+                                    <option value="Corporate Event">Corporate Event</option>
+                                    <option value="Product Launch">Product Launch</option>
+                                    <option value="Award Ceremony">Award Ceremony</option>
+                                    <option value="Religious Event">Religious Event</option>
+                                    <option value="Crusade">Crusade</option>
+                                    <option value="Concert">Concert</option>
+                                    <option value="Festival">Festival</option>
+                                    <option value="Political Rally">Political Rally</option>
+                                    <option value="Fashion Show">Fashion Show</option>
+                                    <option value="Trade Fair">Trade Fair</option>
+                                    <option value="School Party">School Party</option>
+                                    <option value="Reunion">Reunion</option>
+                                </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <select class="form-select border-primary p-2" aria-label="Guest Size">
+                                <option selected>Expected Guests</option>
+                                <option value="1">100–200</option>
+                                <option value="2">300–400</option>
+                                <option value="3">500–600</option>
+                                <option value="4">700–800</option>
+                                <option value="5">900–1000</option>
+                                <option value="6">1000+</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <select class="form-select border-primary p-2" aria-label="Menu Preference">
+                                <option selected disabled>Meal Preference</option>
+                                <option value="Vegetarian">Vegetarian</option>
+                                <option value="Non-Vegetarian">Non-Vegetarian</option>
+                                <option value="Mixed Menu">Mixed Menu (Veg & Non-Veg)</option>
+                                <option value="African Delicacies">Traditional Nigerian Dishes</option>
+                                <option value="Continental Dishes">Continental Menu</option>
+                                <option value="Jollof Rice & Party Staples">Jollof Rice & Party Staples</option>
+                                <option value="Small Chops & Finger Foods">Small Chops & Finger Foods</option>
+                                <option value="Swallow & Soups">Swallow with Soups</option>
+                                <option value="Seafood">Seafood Selection</option>
+                                <option value="Grilled Menu">Grilled (Asun, Chicken, Fish)</option>
+                                <option value="Halal">Halal Compliant Meals</option>
+                                <option value="Children's Menu">Children’s Menu</option>
+                                <option value="Custom Request">Custom/Personalized Menu</option>
+                            </select>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <input type="tel" class="form-control border-primary p-2" placeholder="Your Phone Number">
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <input type="date" class="form-control border-primary p-2" placeholder="Select Event Date">
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <input type="email" class="form-control border-primary p-2" placeholder="Enter Your Email Address">
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary px-5 py-3 rounded-pill">Submit Booking</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/backk.avif" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="TasteQuest Event Setup">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Book Us End -->
+
+        <!-- Footer Start -->
+<div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
+            <!-- Brand Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h1 class="text-primary">Taste<span class="text-dark">Quest</span></h1>
+                    <p class="lh-lg mb-4">
+                        TasteQuest is Nigeria’s leading event and corporate catering service. We bring flavorful, locally-inspired dishes to your weddings, parties, and business events with unmatched quality and hospitality.
+                    </p>
+                    <div class="footer-icon d-flex">
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Our Signature Dishes</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Jollof Rice & Grilled Chicken</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Pounded Yam & Egusi Soup</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Asun (Spicy Grilled Goat Meat)</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Small Chops & Cocktail Packs</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Contact Us</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 42 Allen Avenue, Ikeja, Lagos, Nigeria</p>
+                        <p><i class="fa fa-phone-alt text-primary me-2"></i> (+234) 901 234 5678</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i> hello@tastequest.ng</p>
+                        <p><i class="fa fa-clock text-primary me-2"></i> Mon - Sat: 8AM - 8PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Gallery -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Social Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img src="img/jollof.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Jollof Rice catering TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/smallchops.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Nigerian catering small chops platter">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/buffet.avif" class="img-fluid rounded-circle border border-primary p-2" alt="TasteQuest buffet service at Lagos wedding">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corplunch.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Catering for corporate lunch TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corpeventcat.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Party event catering Nigeria">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/iyan.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Traditional food catering in Lagos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright bg-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <span class="text-light"><a href="index.html"><i class="fas fa-copyright text-light me-2"></i>TasteQuest</a>, All rights reserved.</span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>

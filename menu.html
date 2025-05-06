@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TasteQuest | Premium Nigerian Catering Services for Events & Occasions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TasteQuest | Premium Nigerian Catering Services for Events & Occasions">
+    <meta name="description" content="TasteQuest is Nigeria’s leading catering service, offering delicious local and continental dishes for weddings, corporate events, and private parties.">
+    <meta name="keywords" content="TasteQuest, Nigerian catering, event catering Lagos, wedding food Nigeria, corporate catering services, Nigerian food delivery, party catering">
+    <meta name="author" content="TasteQuest Catering Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="TasteQuest | Premium Nigerian Catering Services">
+    <meta property="og:description" content="Top-rated catering for weddings, parties, and corporate events. Book TasteQuest for delicious, professionally-served meals.">
+    <meta property="og:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:secure_url" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://www.tastequest.vercel.app">
+    <meta property="og:site_name" content="TasteQuest">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TasteQuest | Nigerian Catering Services">
+    <meta name="twitter:description" content="Experience gourmet Nigerian catering for your next event. Trusted by clients across Lagos and beyond.">
+    <meta name="twitter:image" content="https://www.tastequest.vercel.app/img/tastequest.png">
+    <meta name="twitter:image:alt" content="TasteQuest premium Nigerian dishes and catering setup">
+    <meta name="twitter:site" content="@TasteQuestNG">
+    <meta name="twitter:creator" content="@TasteQuestNG">
+
+    <!-- WhatsApp & LinkedIn will fallback to Open Graph tags -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand" aria-label="TasteQuest Catering Home">
+                        <h1 class="text-primary fw-bold mb-0">Taste<span class="text-dark">Quest</span></h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About Us</a>
+                            <a href="service.html" class="nav-item nav-link">Our Services</a>
+                            <a href="event.html" class="nav-item nav-link">Event Catering</a>
+                            <a href="menu.html" class="nav-item nav-link">Our Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="book.html" class="dropdown-item">Book a Service</a>
+                                    <a href="blog.html" class="dropdown-item">Catering Blog</a>
+                                    <a href="team.html" class="dropdown-item">Meet the Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Client Testimonials</a>
+                                    <a href="404.html" class="dropdown-item">Error Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="searchModalLabel">Search TasteQuest Catering</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close search"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="Search dishes, events, services..." aria-label="Search">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container text-center animated bounceInDown">
+                <h1 class="display-1 mb-4">Menu</h1>
+                <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-dark" aria-current="page">Menu</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <style>
+            .bg-light.py-6.my-6.mt-0 {
+              background-image: url('img/hotel.avif');
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-color: transparent !important;
+              min-height: 300px;
+            }
+            </style>
+
+                <!-- Menu Start -->
+                <div class="container-fluid menu bg-light py-6 my-6">
+                    <div class="container">
+                        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Menu</small>
+                            <h1 class="display-5 mb-5">Most Popular Food in the World</h1>
+                        </div>
+                        <div class="tab-class text-center">
+                            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                                <li class="nav-item p-2">
+                                    <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill active" data-bs-toggle="pill" href="#tab-6">
+                                        <span class="text-dark" style="width: 150px;">Starters</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-7">
+                                        <span class="text-dark" style="width: 150px;">Main Dishes</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-8">
+                                        <span class="text-dark" style="width: 150px;">Drinks & Beverages</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-9">
+                                        <span class="text-dark" style="width: 150px;">Catering Offers</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item p-2">
+                                    <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-10">
+                                        <span class="text-dark" style="width: 150px;">Chef’s Specials</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="tab-content">
+                                <div id="tab-6" class="tab-pane fade show p-0 active">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/meat.jpg" alt="Freshly baked Nigerian meat pie">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Meat Pie</h4>
+                                                        <h4 class="text-primary">₦800</h4>
+                                                    </div>
+                                                    <p class="mb-0">Golden pastry filled with seasoned minced beef, diced potatoes, and carrots – a classic Nigerian party favorite.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/moi-moi.jpeg" alt="Steamed moi moi served in leaf wrap">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Moi Moi</h4>
+                                                        <h4 class="text-primary">₦1000</h4>
+                                                    </div>
+                                                    <p class="mb-0">Steamed bean pudding blended with peppers, onions, and spiced proteins. Often wrapped in leaf for that authentic Naija taste.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/chops.jpg" alt="Assorted Nigerian small chops platter">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Small Chops Combo</h4>
+                                                        <h4 class="text-primary">₦2500</h4>
+                                                    </div>
+                                                    <p class="mb-0">A delicious platter of puff-puff, samosa, spring rolls, and spicy grilled gizzard – a party essential that satisfies every craving.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/puff.webp" alt="Nigerian puff puff golden balls">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Puff-Puff</h4>
+                                                        <h4 class="text-primary">₦500</h4>
+                                                    </div>
+                                                    <p class="mb-0">Deep-fried golden dough balls – fluffy, sweet, and irresistible. Ideal for cocktail hours and casual parties.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/gizdodo.jpg" alt="Gizdodo served hot with pepper sauce">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Gizdodo</h4>
+                                                        <h4 class="text-primary">₦2000</h4>
+                                                    </div>
+                                                    <p class="mb-0">A perfect fusion of spicy gizzard and sweet fried plantains tossed in flavorful pepper sauce. Perfect for appetizer trays.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/skewers.jpg" alt="Nigerian spicy chicken skewers">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Spicy Chicken Skewers</h4>
+                                                        <h4 class="text-primary">₦1800</h4>
+                                                    </div>
+                                                    <p class="mb-0">Tender chicken chunks grilled on skewers and glazed with TasteQuest’s secret pepper marinade. A smoky delight.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/snail.jpg" alt="Nigerian peppered snail with seasoning">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Peppered Snail</h4>
+                                                        <h4 class="text-primary">₦3000</h4>
+                                                    </div>
+                                                    <p class="mb-0">Soft and spicy giant snails sautéed in rich pepper sauce. A luxurious delicacy loved at premium events.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
+                                            <div class="menu-item d-flex align-items-center">
+                                                <img class="flex-shrink-0 img-fluid rounded-circle" src="img/yam.jpg" alt="Nigerian yam balls crispy and golden">
+                                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                                    <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                        <h4>Crispy Yam Balls</h4>
+                                                        <h4 class="text-primary">₦1500</h4>
+                                                    </div>
+                                                    <p class="mb-0">Mashed yam rolled into balls and deep-fried to perfection, served with a zesty pepper dip – crunchy on the outside, fluffy inside.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            
+                            <div id="tab-7" class="tab-pane fade show p-0">
+                                <div class="row g-4">
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/jollofchic.avif" alt="Nigerian Jollof Rice with grilled chicken">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Jollof Rice</h4>
+                                                    <h4 class="text-primary">₦3,000</h4>
+                                                </div>
+                                                <p class="mb-0">Iconic party favorite made with spicy tomato stew, served with grilled chicken or beef. A TasteQuest signature.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/ofada.webp" alt="Ofada rice with ayamase sauce and assorted meat">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Ofada Rice & Ayamase</h4>
+                                                    <h4 class="text-primary">₦3,500</h4>
+                                                </div>
+                                                <p class="mb-0">Traditional Ofada rice served with spicy green pepper sauce and assorted meat—authentically Yoruba.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/efo.jpg" alt="Efo Riro vegetable soup with assorted meat and pounded yam">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Efo Riro</h4>
+                                                    <h4 class="text-primary">₦3,000</h4>
+                                                </div>
+                                                <p class="mb-0">Rich vegetable soup made with spinach, locust beans, and assorted meats. A beloved Yoruba delicacy.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/asun.jpg" alt="Spicy grilled goat meat also known as Asun">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Asun</h4>
+                                                    <h4 class="text-primary">₦4,000</h4>
+                                                </div>
+                                                <p class="mb-0">Spicy grilled goat meat, a must-have at any Nigerian Owambe. Bursting with smoky peppered flavor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/pepper.webp" alt="Catfish Pepper Soup served hot and spicy">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Pepper Soup</h4>
+                                                    <h4 class="text-primary">₦2,500</h4>
+                                                </div>
+                                                <p class="mb-0">Hot and spicy catfish or goat meat pepper soup, infused with local herbs. Perfect for evening chills.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/fried.webp" alt="Nigerian Fried Rice with vegetables and grilled chicken">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Fried Rice</h4>
+                                                    <h4 class="text-primary">₦3,000</h4>
+                                                </div>
+                                                <p class="mb-0">Colorful rice sautéed with mixed vegetables, liver, and spices. Often paired with chicken or dodo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-6">
+                                        <div class="menu-item d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded-circle" src="img/egusiiyan.jpeg" alt="Pounded yam with egusi soup and assorted meats">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                                    <h4>Pounded Yam & Egusi</h4>
+                                                    <h4 class="text-primary">₦3,500</h4>
+                                                </div>
+                                                <p class="mb-0">Smooth pounded yam served with rich melon seed (egusi) soup loaded with stockfish and meat.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                            </div>
+        
+                            
+        
+                                <div id="tab-8" class="tab-pane fade show p-0">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/zobo.jpg" alt="Zobo drink in a glass cup">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Zobo Drink</h4>
+                                <h4 class="text-primary">₦500</h4>
+                            </div>
+                            <p class="mb-0">A refreshing hibiscus flower drink served chilled, popular at Nigerian weddings and parties for its sweet, tangy flavor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/palm wine.jpeg" alt="Palm wine in calabash at a Nigerian event">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Palm Wine</h4>
+                                <h4 class="text-primary">₦700</h4>
+                            </div>
+                            <p class="mb-0">Naturally fermented palm sap served fresh—an iconic traditional beverage enjoyed during cultural celebrations and village gatherings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/fayrouz.jpeg" alt="Bottle of Fayrouz drink on table">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Fayrouz</h4>
+                                <h4 class="text-primary">₦400</h4>
+                            </div>
+                            <p class="mb-0">A lightly carbonated malt and fruit blend, Fayrouz is a classy choice for soft drink lovers at upscale Nigerian events.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/tigernut.webp" alt="Tiger nut milk in a glass with straw">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Tigernut Milk (Kunun Aya)</h4>
+                                <h4 class="text-primary">₦600</h4>
+                            </div>
+                            <p class="mb-0">Made from blended tiger nuts, dates, and coconut—this creamy, healthy drink is served cold at modern Nigerian gatherings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/maltina.jpg" alt="Maltina drink on catering tray">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Maltina</h4>
+                                <h4 class="text-primary">₦300</h4>
+                            </div>
+                            <p class="mb-0">Nigeria’s favorite non-alcoholic malt drink, known for its rich taste and energy boost—perfect for family-friendly occasions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/chapman.jpg" alt="Chapman cocktail with lemon slice">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Chapman</h4>
+                                <h4 class="text-primary">₦800</h4>
+                            </div>
+                            <p class="mb-0">Nigeria’s signature party cocktail made with Angostura bitters, soda, grenadine, and citrus—served with cucumber slices and ice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/smoothie.jpg" alt="Fruit smoothie served at TasteQuest event">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Tropical Smoothie</h4>
+                                <h4 class="text-primary">₦1,000</h4>
+                            </div>
+                            <p class="mb-0">Blended mix of pineapple, mango, banana, and coconut—TasteQuest’s tropical delight for health-conscious guests.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="tab-9" class="tab-pane fade show p-0">
+           
+        
+                
+        
+                
+        
+                
+        
+                
+        </div>
+        
+        
+        
+        
+        <div id="tab-10" class="tab-pane fade show p-0">
+            <div class="row g-4">
+        
+                
+        
+                
+        
+                
+                <div class="col-lg-6">
+                    <div class="menu-item d-flex align-items-center">
+                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/ekpang.webp" alt="Ekpang Nkukwo - Efik/Ibibio Traditional Dish">
+                        <div class="w-100 d-flex flex-column text-start ps-4">
+                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                <h4>Ekpang Nkukwo</h4>
+                                <h4 class="text-primary">₦4,500</h4>
+                            </div>
+                            <p class="mb-0">Delicacy from the Efik/Ibibio people, made with grated cocoyam, periwinkles, and wrapped in cocoyam leaves. Rich and unforgettable taste.</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu End -->
+
+                
+        <!-- Footer Start -->
+<div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row">
+            <!-- Brand Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h1 class="text-primary">Taste<span class="text-dark">Quest</span></h1>
+                    <p class="lh-lg mb-4">
+                        TasteQuest is Nigeria’s leading event and corporate catering service. We bring flavorful, locally-inspired dishes to your weddings, parties, and business events with unmatched quality and hospitality.
+                    </p>
+                    <div class="footer-icon d-flex">
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Our Signature Dishes</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Jollof Rice & Grilled Chicken</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Pounded Yam & Egusi Soup</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Asun (Spicy Grilled Goat Meat)</a>
+                        <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Small Chops & Cocktail Packs</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Contact Us</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 42 Allen Avenue, Ikeja, Lagos, Nigeria</p>
+                        <p><i class="fa fa-phone-alt text-primary me-2"></i> (+234) 901 234 5678</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i> hello@tastequest.ng</p>
+                        <p><i class="fa fa-clock text-primary me-2"></i> Mon - Sat: 8AM - 8PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Gallery -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-item">
+                    <h4 class="mb-4">Social Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img src="img/jollof.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Jollof Rice catering TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/smallchops.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Nigerian catering small chops platter">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/buffet.avif" class="img-fluid rounded-circle border border-primary p-2" alt="TasteQuest buffet service at Lagos wedding">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corplunch.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Catering for corporate lunch TasteQuest">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/corpeventcat.avif" class="img-fluid rounded-circle border border-primary p-2" alt="Party event catering Nigeria">
+                        </div>
+                        <div class="col-4">
+                            <img src="img/iyan.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="Traditional food catering in Lagos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright bg-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <span class="text-light"><a href="index.html"><i class="fas fa-copyright text-light me-2"></i>TasteQuest</a>, All rights reserved.</span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
